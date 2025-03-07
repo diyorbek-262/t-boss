@@ -1,40 +1,70 @@
-.plans-title{
-    text-align: center;
-    font-family: sans-serif;
-    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.plans-bio{
-    text-align: center;
-    font-family: sans-serif;
-}
-.plans-container{
-   
+.container{
     display: flex;
-    max-width: 800px;
-    margin: 0 auto;
-    gap: 30px;
-    padding: 1rem;
     justify-content: space-between;
+    max-width: 1400px;
+    align-items: center;
+}
+header{
+    padding: 20px;
+}
+.one-button{
+    padding: 10px 40px;
+    border: none;
+    background-color: rgba(23, 83, 138, 1);
+    color: white;
+    border-radius: 7px;
+}
+.two-button{
+    padding: 10px 30px;
+    border: none;
+    background-color: rgba(23, 83, 138, 1);
+    color: white;
+    border-radius: 7px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+.container i{
+    font-size: 18px;
 
+}
+.number{
+ width: 585px;
+ height: 188px;
+ background-color: white;  
+ border-radius: 20px; 
+ margin-top: 100px;
+ padding: 30px 50px;
+}
+main{
+    background-color: rgba(23, 83, 138, 1);
+    width: 100%;
+    height: 90vh;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-left: 500px;
+
+}
+.math{
+    padding: 3px 6px;
+    border-radius: 20px;
+    background-color: rgba(246, 166, 166, 0.8);
     
 }
-.plan{
-    min-width: 400px;
-    min-height: 400px;
-border: 1px solid #444;
-min-height: 400px;
-width: 46%;
-padding: 1rem;
+.plays{
+    gap: 30px;
+    display: flex;  
 }
-.plan-recommended{
-    background-color: blue;
-    color: #fff;
-    padding: 8px;
-    border-radius: 0 0 5px 5px;
-    position: absolute;
-    top: 0;
-    left: 33%;
-}
-.plan-premium{
-    position: relative;
+.number h3{
+    padding-bottom: 15px;
+padding-top: 20px;
 }
